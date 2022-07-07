@@ -31,6 +31,10 @@
                         {{ __('Manage All Rents') }}
                     </x-jet-nav-link>
 
+                    <x-jet-nav-link href="/cars">
+                        {{ __('Edit Cars') }}
+                    </x-jet-nav-link>
+
                     
 
                     
@@ -51,7 +55,7 @@
                         {{ __('Contact Us') }}
                     </x-jet-nav-link>
 
-                    <x-jet-nav-link href="{{ route('carselection') }}" :active="request()->routeIs('carselection')">
+                    <x-jet-nav-link href="/cars" :active="request()->routeIs('carselection')">
                         {{ __('Car Selection') }}
                     </x-jet-nav-link>
 
@@ -217,7 +221,7 @@
                     {{ __('Rents') }}
                 </x-jet-responsive-nav-link>
                 
-                <x-jet-responsive-nav-link href="{{ route('carselection') }}" :active="request()->routeIs('carselection')">
+                <x-jet-responsive-nav-link href="/cars" :active="request()->routeIs('carselection')">
                     {{ __('Car Selection') }}
                 </x-jet-responsive-nav-link>
 

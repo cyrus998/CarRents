@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Rents;
+
+use App\Http\Livewire\Cars;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,6 +16,8 @@ use App\Http\Livewire\Rents;
 */
 
 Route::get('rents', Rents::class);
+Route::get('cars', Cars::class)->middleware('auth');
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -36,10 +40,6 @@ Route::middleware([
      Route::get('/contactus', function () {
         return view('contactus');
      })->name('contactus');
-
-     Route::get('/carselection', function () {
-        return view('carselection');
-     })->name('carselection');
     
     Route::get('rents', Rents::class);
 });

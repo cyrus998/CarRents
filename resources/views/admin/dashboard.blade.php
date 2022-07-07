@@ -42,13 +42,13 @@
                 </a>
 
 
-                <a class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10" href="">
+                <a class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-pink-500/10 hover:border-pink-500/10" href="/cars">
                     <img style="width:42" src="https://media.discordapp.net/attachments/971130306751000636/981174821494849556/unknown.png" alt="">
 
-                    <h3 class="mt-4 text-4xl font-bold text-white">Manage Orders</h3>
+                    <h3 class="mt-4 text-4xl font-bold text-white">Add New Cars</h3>
 
                     <p class="mt-1 text-sm text-gray-300">
-                        Change your customer's status.
+                        Add New Cars.
                     </p>
                 </a>
 
