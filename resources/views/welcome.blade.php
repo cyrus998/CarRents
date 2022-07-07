@@ -19,7 +19,7 @@
         <div class="relative max-w-screen-xl px-4 py-32 mx-auto lg:h-screen lg:items-center lg:flex">
             <div class="max-w-xl text-center sm:text-left">
                 <h1 class="text-5xl font-extrabold sm:text-8xl text-white">
-                    DIAN POGI
+                    Car Rentals
                     <strong
                         class="font-extrabold text-transparent bg-clip-text bg-gradient-to-t from-blue-200 via-cyan-400 to-blue-50 sm:block">
                         Made Accessible.
