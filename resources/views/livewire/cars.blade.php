@@ -1,6 +1,6 @@
 <x-slot name="header">
     <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-        Cars
+        Create or Edit Car Information
     </h2>
 </x-slot>
 
@@ -27,7 +27,7 @@
 
             @endif
 
-            <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-3 lg:grid-cols-3">
+            <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
 
                 @foreach ($cars as $car)
                     <div class="card1 px-4">
@@ -44,7 +44,7 @@
                                         <dd class="text-xl"> {{ $car->carunit }} </dd>
                                     </div>
                                     <div>
-                                        <dd class="text-xxl text-gray-500"> {{ $car->price }} </dd>
+                                        <dd class="text-xxl text-gray-500">Price starts @ {{ $car->price }} / day </dd>
                                     </div>
                                 </dl>
                                 <dl class="flex items-center mt-2 space-x-8 text-xs">

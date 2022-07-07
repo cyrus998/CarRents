@@ -14,25 +14,48 @@
           <div class="">
              {{-- // 'carunit', 'price', 'transmission', 'seats', 'picture' --}}
                 <div class="mb-4">
-                    <label for="exampleFormControlInput1" class="block text-gray-700 text-sm font-bold mb-2">carunit:</label>
+                    <label for="exampleFormControlInput1" class="block text-gray-700 text-sm font-bold mb-2">Car Unit:</label>
                     <input type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="exampleFormControlInput1" placeholder="Enter carunit" wire:model="carunit">
                     @error('carunit') <span class="text-red-500">{{ $message }}</span>@enderror
                 </div>
 
                 <div class="mb-4">
-                    <label for="exampleFormControlInput2" class="block text-gray-700 text-sm font-bold mb-2">price:</label>
+                    <label for="exampleFormControlInput2" class="block text-gray-700 text-sm font-bold mb-2">Price Per Day of Rent (24 Hrs):</label>
                     <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="exampleFormControlInput2" wire:model="price" placeholder="Enter price"></textarea>
                     @error('price') <span class="text-red-500">{{ $message }}</span>@enderror
                 </div>
                 <div class="mb-4">
-                    <label for="exampleFormControlInput1" class="block text-gray-700 text-sm font-bold mb-2">transmission:</label>
-                    <input type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="exampleFormControlInput1" placeholder="Enter transmission" wire:model="transmission">
+                    <label for="exampleFormControlInput1" class="block text-gray-700 text-sm font-bold mb-2">Transmission:</label>
+                    <select class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="exampleFormControlInput2" wire:model="transmission" placeholder="Enter transmission">
+                      <option disabled value="">Select Type of Transmission</option>
+                      <option value="Automatic">Automatic</option>
+                      <option value="Manual">Manual</option>
+                      <option value="Hybrid">Hybrid</option>
+                    </select>
                     @error('transmission') <span class="text-red-500">{{ $message }}</span>@enderror
                 </div>
                 
                 <div class="mb-4">
-                    <label for="exampleFormControlInput2" class="block text-gray-700 text-sm font-bold mb-2">seats:</label>
-                    <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="exampleFormControlInput2" wire:model="seats" placeholder="Enter seats"></textarea>
+                    <label for="exampleFormControlInput2" class="block text-gray-700 text-sm font-bold mb-2">Seats:</label>
+                    <select class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="exampleFormControlInput2" wire:model="seats" placeholder="Enter Number of Seats">
+                      <option disabled value="">Select Number of Seats</option>
+                      <option value="1">1 Seat</option>
+                      <option value="2">2 Seats</option>
+                      <option value="3">3 Seats</option>
+                      <option value="4">4 Seats</option>
+                      <option value="5">5 Seats</option>
+                      <option value="6">6 Seats</option>
+                      <option value="7">7 Seats</option>
+                      <option value="8">8 Seats</option>
+                      <option value="9">9 Seats</option>
+                      <option value="10">10 Seats</option>
+                      <option value="11">11 Seats</option>
+                      <option value="12">12 Seats</option>
+                      <option value="13">13 Seats</option>
+                      <option value="14">14 Seats</option>
+                      <option value="15">15 Seats</option>
+
+                    </select>
                     @error('seats') <span class="text-red-500">{{ $message }}</span>@enderror
                 </div>
                 <div class="mb-4">
