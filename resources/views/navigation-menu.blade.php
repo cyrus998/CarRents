@@ -55,9 +55,17 @@
                         {{ __('Contact Us') }}
                     </x-jet-nav-link>
 
+                    @if(Auth::user()->role=="1")
                     <x-jet-nav-link href="/cars" :active="request()->routeIs('carselection')">
                         {{ __('Car Selection') }}
                     </x-jet-nav-link>
+                    @endif
+
+                    @if(Auth::user()->role=="1")
+                    <x-jet-nav-link href="/cars" :active="request()->routeIs('carselection')">
+                        {{ __('Edit Cars') }}
+                    </x-jet-nav-link>
+                    @endif
 
                     <x-jet-nav-link href="/rents" :active="request()->routeIs('rents')">
                         {{ __('Rents') }}
@@ -217,13 +225,31 @@
                     {{ __('Profile') }}
                 </x-jet-responsive-nav-link>
 
+                
+                <!-- Admin Links -->
+                @if(Auth::user()->role=="1")
+                <x-jet-responsive-nav-link href="/cars" :active="request()->routeIs('carselection')">
+                    {{ __('Edit Cars') }}
+                </x-jet-responsive-nav-link>
+
+                <x-jet-responsive-nav-link href="/rents" :active="request()->routeIs('rents')">
+                    {{ __('Manage All Rents') }}
+                </x-jet-responsive-nav-link>
+
+                @endif
+                {{-- End of Admin Links --}}
+
+                {{-- User Links --}}
+                @if(Auth::user()->role=="0")
+
                 <x-jet-responsive-nav-link href="/rents" :active="request()->routeIs('rents')">
                     {{ __('Rents') }}
                 </x-jet-responsive-nav-link>
-                
+
                 <x-jet-responsive-nav-link href="/cars" :active="request()->routeIs('carselection')">
                     {{ __('Car Selection') }}
                 </x-jet-responsive-nav-link>
+                
 
                 <x-jet-responsive-nav-link href="{{ route('aboutus') }}" :active="request()->routeIs('aboutus')">
                     {{ __('About Us') }}
@@ -232,7 +258,8 @@
                 <x-jet-responsive-nav-link href="{{ route('contactus') }}" :active="request()->routeIs('contactus')">
                     {{ __('Contact Us') }}
                 </x-jet-responsive-nav-link>
-
+                @endif
+                {{-- End of User Links --}}
                 @if (Laravel\Jetstream\Jetstream::hasApiFeatures())
                     <x-jet-responsive-nav-link href="{{ route('api-tokens.index') }}" :active="request()->routeIs('api-tokens.index')">
                         {{ __('API Tokens') }}

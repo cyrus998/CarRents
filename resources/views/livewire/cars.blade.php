@@ -1,7 +1,15 @@
 <x-slot name="header">
+    @if(Auth::user()->role=="0")
+    <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+        Our Finest Selection of Cars
+    </h2>
+    @endif
+    
+    @if(Auth::user()->role=="1")
     <h2 class="font-semibold text-xl text-gray-800 leading-tight">
         Create or Edit Car Information
     </h2>
+    @endif
 </x-slot>
 
 <div class="py-12">
