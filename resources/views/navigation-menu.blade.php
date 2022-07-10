@@ -7,12 +7,12 @@
                 <div class="shrink-0 flex items-center">
                     @if(Auth::user()->role=="1")
                     <a href="/redirects">
-                        <x-jet-application-mark class="block h-9 w-auto" />
+                    <img src="https://cdn-icons.flaticon.com/png/512/1300/premium/1300302.png?token=exp=1657435582~hmac=b69d43a623b0645fd8a967381fb21f81" width="45" height="45">
                     </a>
                     @elseif(Auth::user()->role=="0")
 
                     <a href="{{ route('dashboard') }}">
-                        <x-jet-application-mark class="block h-9 w-auto" />
+                   <img src="https://cdn-icons.flaticon.com/png/512/1300/premium/1300302.png?token=exp=1657435582~hmac=b69d43a623b0645fd8a967381fb21f81" width="45" height="45">
                     </a>
                     
                     @endif

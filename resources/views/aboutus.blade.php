@@ -141,7 +141,7 @@
                             class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl" />
 
                         <blockquote class="flex flex-col justify-between p-12 -mt-6 text-center rounded-lg ">
-                            <p class="text-xl font-bold text-gray-700">Dian Villanueva</p>
+                            <p class="text-xl font-bold text-gray-700">Adrian Villanueva</p>
                             <p class="mt-1 text-1xl font-medium text-gray-500">
                                 Back-End Developer
                             </p>
