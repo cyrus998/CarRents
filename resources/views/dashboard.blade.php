@@ -133,13 +133,47 @@
               </div>
             </a>
           </div>
+
+          <!-- card 4 -->
+
+          <div class="card1 px-4">
+            <a href="" class="block p-4 rounded-lg shadow-sm shadow-indigo-100">
+              <img alt="1" src="https://imgcdn.zigwheels.ph/medium/gallery/exterior/30/1110/toyota-fortuner-front-angle-low-view-275442.jpg" class="object-cover w-full h-64 rounded-md" />
+              <div class="mt-2 px-5 py-2">
+                <dl>
+                  <div>
+                    <dd class="text-xl"> Toyota Fortuner </dd>
+                  </div>
+                  <div>
+                    <dd class="text-xxl text-gray-500"> Starts @ 1,599 / Day </dd>
+                  </div>
+                </dl>
+                <dl class="flex items-center mt-2 space-x-8 text-xs">
+                  <div class="sm:inline-flex sm:items-center sm:shrink-0">
+                    <img class="h-5" src="https://cdn-icons.flaticon.com/png/512/2881/premium/2881031.png?token=exp=1657026510~hmac=f0ea2c8d0c167781cac58166ad9541b8" alt="">
+                    <div class="sm:ml-3 mt-1.5 sm:mt-0">
+                      <dt class="text-gray-500"> Transmission </dt>
+                      <dd class="font-medium"> Automatic </dd>
+                    </div>
+                  </div>
+                  <div class="sm:inline-flex sm:items-center sm:shrink-0">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6331/6331941.png" class="h-5" alt="">
+                    <div class="sm:ml-3 mt-1.5 sm:mt-0">
+                      <dt class="text-gray-500"> Seats </dt>
+                      <dd class="font-medium"> 6 Seats (Max 8) </dd>
+                    </div>
+                  </div>
+                </dl>
+              </div>
+            </a>
+          </div>
       </div>
 
          {{-- End of cards --}}
 
          
    
-      <div class="container max-w-4xl px-6 py-10 mx-auto">
+      <div class="container max-w-7xl px-6 py-10 mx-auto">
         <h1 class="text-4xl font-semibold text-center text-black">Frequently asked questions</h1>
         <div class="p-3">
           <div class="space-y-4">

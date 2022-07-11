@@ -55,6 +55,10 @@
                         {{ __('Contact Us') }}
                     </x-jet-nav-link>
 
+                    <x-jet-nav-link href="/cars" :active="request()->routeIs('carselection')">
+                        {{ __('Car Selection') }}
+                    </x-jet-nav-link>
+
                     @if(Auth::user()->role=="1")
                     <x-jet-nav-link href="/cars" :active="request()->routeIs('carselection')">
                         {{ __('Car Selection') }}
