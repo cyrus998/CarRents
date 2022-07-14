@@ -1,21 +1,28 @@
-// para i check kung may update
+HOW TO RUN (For my Groupmates)
 
-para mapagana yung loading of pictures
+First, Clone my repository; then
+
+composer update
 
 php artisan storage:link
 
-// para i check kung may update
+php artisan migrate:fresh
 
-git status 
+php artisan serve
 
-// para mag upload
+==== TO CHECK FOR GITHUB UPDATES =====
+
+To get latest updates:      git pull
+
+To commit do the following:
+
+git status          // to check your changes
 
 git add .
 
-git commit -m "notes kahit ano"
+git commit -m "any message update"
 
 git push
 
-// para i update (kung meron update )
+if there are any questions message me on facebook.com/cyrus998
 
-git pull
