@@ -33,7 +33,7 @@
  {{-- Start of cards --}}
 
  <p class="text-3xl text-center pt-5 text-black">Some of our Featured Cars</p>
-      <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-3 lg:grid-cols-4">
+      <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-3 lg:grid-cols-3">
         <div class="card1 px-4">
           <a href="" class="block p-4 rounded-lg shadow-sm shadow-indigo-100">
             <img alt="1" src="https://imgcdn.zigwheels.ph/medium/gallery/exterior/30/1943/toyota-vios-front-angle-low-view-663135.jpg" class="object-cover w-full h-64 rounded-md" />
@@ -133,13 +133,15 @@
               </div>
             </a>
           </div>
+
+
       </div>
 
          {{-- End of cards --}}
 
          
    
-      <div class="container max-w-4xl px-6 py-10 mx-auto">
+      <div class="container max-w-7xl px-6 py-10 mx-auto">
         <h1 class="text-4xl font-semibold text-center text-black">Frequently asked questions</h1>
         <div class="p-3">
           <div class="space-y-4">

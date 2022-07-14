@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Rents;
+use App\Http\Livewire\RentIndex;
 
 use App\Http\Livewire\Cars;
 /*
@@ -15,9 +16,9 @@ use App\Http\Livewire\Cars;
 |
 */
 
-Route::get('rents', Rents::class);
 Route::get('cars', Cars::class)->middleware('auth');
 
+Route::get('/rents', RentIndex::class)->name('rents.index');
 
 Route::get('/', function () {
     return view('welcome');
@@ -40,8 +41,9 @@ Route::middleware([
      Route::get('/contactus', function () {
         return view('contactus');
      })->name('contactus');
-    
-    Route::get('rents', Rents::class);
+
+     Route::get('/rents', RentIndex::class)->name('rents.index');
+
 });
 Route::view('/home','home')->middleware(['auth','verified']);
 
