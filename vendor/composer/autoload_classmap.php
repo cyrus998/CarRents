@@ -18,7 +18,7 @@ return array(
     'App\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',
     'App\\Http\\Livewire\\Cars' => $baseDir . '/app/Http/Livewire/Cars.php',
-    'App\\Http\\Livewire\\Rents' => $baseDir . '/app/Http/Livewire/Rents.php',
+    'App\\Http\\Livewire\\RentIndex' => $baseDir . '/app/Http/Livewire/RentIndex.php',
     'App\\Http\\Middleware\\Authenticate' => $baseDir . '/app/Http/Middleware/Authenticate.php',
     'App\\Http\\Middleware\\EncryptCookies' => $baseDir . '/app/Http/Middleware/EncryptCookies.php',
     'App\\Http\\Middleware\\PreventRequestsDuringMaintenance' => $baseDir . '/app/Http/Middleware/PreventRequestsDuringMaintenance.php',
