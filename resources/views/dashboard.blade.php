@@ -40,7 +40,7 @@
             <div class="mt-2 px-5 py-2">
               <dl>
                 <div>
-                  <dd class="text-xl"> Toyota Vios. </dd>
+                  <dd class="text-xl"> Toyota Vios </dd>
                 </div>
                 <div>
                   <dd class="text-xxl text-gray-500"> Starts @ 1,200 / Day </dd>
