@@ -15,7 +15,7 @@
                         <thead class="bg-gray-50 dark:bg-gray-600 dark:text-gray-200">
                             <tr>
 
-                                <div class="col mb-4 mr-32">
+                                <div class="col mb-4 mr-32 px-4 py-4">
                                     <input wire:model.debounce.300ms="searchTerm" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-300 py-2 px-6 text-gray-700  focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" placeholder="Search Customer">
                                 </div>
                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-200 uppercase tracking-wider">
