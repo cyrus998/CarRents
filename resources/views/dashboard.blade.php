@@ -40,7 +40,7 @@
           </dl>
           <dl class="flex items-center mt-2 space-x-8 text-xs">
             <div class="sm:inline-flex sm:items-center sm:shrink-0">
-              <img class="h-5" src="https://cdn-icons.flaticon.com/png/512/2881/premium/2881031.png?token=exp=1657026510~hmac=f0ea2c8d0c167781cac58166ad9541b8" alt="">
+              <img class="h-5" src="https://cdn.discordapp.com/attachments/971130306751000636/997893847713591416/unknown.png" alt="">
               <div class="sm:ml-3 mt-1.5 sm:mt-0">
                 <dt class="text-gray-500"> Transmission </dt>
                 <dd class="font-medium"> Automatic </dd>
@@ -74,7 +74,7 @@
           </dl>
           <dl class="flex items-center mt-2 space-x-8 text-xs">
             <div class="sm:inline-flex sm:items-center sm:shrink-0">
-              <img class="h-5" src="https://cdn-icons.flaticon.com/png/512/2881/premium/2881031.png?token=exp=1657026510~hmac=f0ea2c8d0c167781cac58166ad9541b8" alt="">
+              <img class="h-5" src="https://cdn.discordapp.com/attachments/971130306751000636/997893847713591416/unknown.png" alt="">
               <div class="sm:ml-3 mt-1.5 sm:mt-0">
                 <dt class="text-gray-500"> Transmission </dt>
                 <dd class="font-medium"> Manual </dd>
@@ -108,7 +108,7 @@
           </dl>
           <dl class="flex items-center mt-2 space-x-8 text-xs">
             <div class="sm:inline-flex sm:items-center sm:shrink-0">
-              <img class="h-5" src="https://cdn-icons.flaticon.com/png/512/2881/premium/2881031.png?token=exp=1657026510~hmac=f0ea2c8d0c167781cac58166ad9541b8" alt="">
+              <img class="h-5" src="https://cdn.discordapp.com/attachments/971130306751000636/997893847713591416/unknown.png" alt="">
               <div class="sm:ml-3 mt-1.5 sm:mt-0">
                 <dt class="text-gray-500"> Transmission </dt>
                 <dd class="font-medium"> Automatic </dd>
