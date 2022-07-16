@@ -6,14 +6,14 @@ use App\Models\Rent;
 use Illuminate\Support\Facades\Storage;
 use Livewire\Component;
 use Livewire\WithFileUploads;
+use Hashids\Hashids;
 
 class RentIndex extends Component
 {
     use WithFileUploads;
 
     public $showingRentModal = false;
-
-    public $name;
+    protected $listeners = ['deleteConfirmed' => 'delete'];
     public $newImage;
     public $number;
     public $carunit;
@@ -21,8 +21,39 @@ class RentIndex extends Component
     public $price;
     public $status;
     public $oldImage;
+    public $searchTerm;
+    public $sortBy = 'name';
+    public $sortDirection = 'asc';
     public $isEditMode = false;
-    public $rent;
+    public $rents, $name, $rent;
+
+    public function render()
+    {
+        $searchTerm = '%'. $this->searchTerm . '%';
+        $this->rents = Rent::where('name','like',$searchTerm)
+        ->orWhere('image','like',$searchTerm)
+        ->orWhere('number','like',$searchTerm)
+        ->orWhere('carunit','like',$searchTerm)
+        ->orWhere('daysrented','like',$searchTerm)
+        ->orWhere('price','like',$searchTerm)
+        ->orWhere('status','like',$searchTerm)
+        ->orderBy($this->sortBy, $this->sortDirection)
+        ->get();
+        
+        
+        return view('livewire.rent-index');
+    }
+    public function sortBy($field)
+    {
+        if ($this->sortDirection == 'asc') {
+            $this->sortDirection = 'desc';
+        } else {
+            $this->sortDirection = 'asc';
+        }
+
+        return $this->sortBy = $field;
+    }
+
 
     public function showRentModal()
     {
@@ -116,10 +147,5 @@ class RentIndex extends Component
         $this->reset();
     }
 
-    public function render()
-    {
-        return view('livewire.rent-index', [
-            'rents' => Rent::all()
-        ]);
-    }
+
 }

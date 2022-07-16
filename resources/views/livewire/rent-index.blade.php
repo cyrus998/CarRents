@@ -1,7 +1,9 @@
 <div class="max-w-full mx-auto">
     <div class="flex m-2 p-2">
+        
         <x-jet-button wire:click="showRentModal" class="text-1xl">Create</x-jet-button>
     </div>
+ 
     <div class="m-2 p-2">
         <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
             <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
@@ -9,7 +11,10 @@
                     <table class="w-full divide-y divide-gray-200">
                         <thead class="bg-gray-50 dark:bg-gray-600 dark:text-gray-200">
                             <tr>
-
+   
+                            <div class="col mb-4 mr-32">
+            <input wire:model.debounce.300ms="searchTerm" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-300 py-2 px-6 text-gray-700  focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" placeholder = "Search Customer">  
+            </div>
                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-200 uppercase tracking-wider">
                                     ID</th>
                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-200 uppercase tracking-wider">
