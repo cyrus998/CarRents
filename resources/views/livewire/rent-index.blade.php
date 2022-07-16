@@ -3,7 +3,9 @@
         
         <x-jet-button wire:click="showRentModal" class="text-1xl">Create</x-jet-button>
     </div>
- 
+    <div class="m-2">
+                <a class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded my-3" href="{{ URL::to('/create-pdf') }}">Export to PDF</a>
+            </div>
     <div class="m-2 p-2">
         <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
             <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">

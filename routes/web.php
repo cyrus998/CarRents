@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Rents;
 use App\Http\Livewire\RentIndex;
@@ -48,3 +49,7 @@ Route::middleware([
 Route::view('/home','home')->middleware(['auth','verified']);
 
 Route::get('redirects', 'App\Http\Controllers\HomeController@index');
+
+Route::get('/show-rents', [HomeController::class, 'showRents']);
+
+Route::get('/create-pdf', [HomeController::class, 'createPDF']);
