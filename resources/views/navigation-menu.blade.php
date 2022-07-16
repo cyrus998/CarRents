@@ -7,12 +7,12 @@
                 <div class="shrink-0 flex items-center">
                     @if(Auth::user()->role=="1")
                     <a href="/redirects">
-                    <img src="https://cdn-icons.flaticon.com/png/512/1300/premium/1300302.png?token=exp=1657435582~hmac=b69d43a623b0645fd8a967381fb21f81" width="45" height="45">
+                    <img src="https://cdn.discordapp.com/attachments/971130306751000636/994805223421907094/unknown.png" width="45" height="45">
                     </a>
                     @elseif(Auth::user()->role=="0")
 
                     <a href="{{ route('dashboard') }}">
-                   <img src="https://cdn-icons.flaticon.com/png/512/1300/premium/1300302.png?token=exp=1657435582~hmac=b69d43a623b0645fd8a967381fb21f81" width="45" height="45">
+                   <img src="https://cdn.discordapp.com/attachments/971130306751000636/994805223421907094/unknown.png" width="45" height="45">
                     </a>
                     
                     @endif

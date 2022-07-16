@@ -1,22 +1,23 @@
+
+
 <div class="max-w-full mx-auto">
-    <div class="flex m-2 p-2">
-        
-        <x-jet-button wire:click="showRentModal" class="text-1xl">Create</x-jet-button>
+    <div class="m-2 sm:px-6 lg:px-10 text-left pt-5">
+        <x-jet-button wire:click="showRentModal" class="text-1xl">Create New Rent</x-jet-button>
     </div>
-    <div class="m-2">
-                <a class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded my-3" href="{{ URL::to('/create-pdf') }}">Export to PDF</a>
-            </div>
+    <div class="m-2 sm:px-6 lg:px-10 text-right">
+        <a class="bg-cyan-800 hover:bg-slate-800 text-white font-bold py-2 px-4 rounded my-3" href="{{ URL::to('/create-pdf') }}">Export to PDF</a>
+    </div>
     <div class="m-2 p-2">
-        <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+        <div class="-my-2 overflow-x-auto">
             <div class="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
                 <div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
                     <table class="w-full divide-y divide-gray-200">
                         <thead class="bg-gray-50 dark:bg-gray-600 dark:text-gray-200">
                             <tr>
-   
-                            <div class="col mb-4 mr-32">
-            <input wire:model.debounce.300ms="searchTerm" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-300 py-2 px-6 text-gray-700  focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" placeholder = "Search Customer">  
-            </div>
+
+                                <div class="col mb-4 mr-32">
+                                    <input wire:model.debounce.300ms="searchTerm" class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-300 py-2 px-6 text-gray-700  focus:outline-none focus:bg-white focus:border-purple-500" id="inline-full-name" type="text" placeholder="Search Customer">
+                                </div>
                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-200 uppercase tracking-wider">
                                     ID</th>
                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-200 uppercase tracking-wider">
@@ -24,7 +25,7 @@
                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-200 uppercase tracking-wider">
                                     Phone Number</th>
                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-200 uppercase tracking-wider">
-                                    Car</th>
+                                    Car Unit</th>
                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-200 uppercase tracking-wider">
                                     Days Rented</th>
                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-200 uppercase tracking-wider">
@@ -34,7 +35,7 @@
                                 <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-200 uppercase tracking-wider">
                                     ID Image (click to view)</th>
 
-                                <th scope="col" class="relative px-6 py-3">Edit</th>
+                                <th scope="col" class="relative px-6 py-3">Actions</th>
                             </tr>
                         </thead>
                         <tbody class="bg-white divide-y divide-gray-200">
