@@ -37,6 +37,13 @@
             var options = {
                 title : 'Percentage of Most Rented Cars',
                 is3D: true,
+
+                slices: {  
+                    1: {offset: 0.2},
+                    2: {offset: 0.3},
+                    8: {offset: 0.4},
+  
+                 },
             };
             var chart = new google.visualization.PieChart(document.getElementById('pie_chart'));
             chart.draw(data, options);
