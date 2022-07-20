@@ -35,6 +35,10 @@
                         {{ __('Edit Cars') }}
                     </x-jet-nav-link>
 
+                    <x-jet-nav-link href="/analytics">
+                        {{ __('Analytics') }}
+                    </x-jet-nav-link>
+
                     
 
                     
@@ -238,6 +242,10 @@
 
                 <x-jet-responsive-nav-link href="/rents" :active="request()->routeIs('rents')">
                     {{ __('Manage All Rents') }}
+                </x-jet-responsive-nav-link>
+
+                <x-jet-responsive-nav-link href="/analytics" :active="request()->routeIs('rents')">
+                    {{ __('Analytics') }}
                 </x-jet-responsive-nav-link>
 
                 @endif
