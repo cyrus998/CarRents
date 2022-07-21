@@ -74,7 +74,7 @@
                 {{-- <a class="block p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow-cyan-400 hover:border-pink-500/10"
                     href=""> --}}
                 <div class="shadow-xl hover:shadow-cyan-400">
-                    <img src="https://scontent.fmnl9-2.fna.fbcdn.net/v/t39.30808-6/279702501_1685325368499282_4915734950722568661_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFxfr9dhIz2l4rN75e0daRU3-o7ALAkQbDf6jsAsCRBsCLfliVFJheC2SIjlnPihiCa1CzcFuoRsnt36I5mbRSt&_nc_ohc=-zouofKE-BEAX_zQC50&_nc_ht=scontent.fmnl9-2.fna&oh=00_AT9Xm5j9M02rLSwOq1yMOcffIRtp8x0EEOdRJwRT9QG2yQ&oe=62D7455C" alt="" class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl" />
+                    <img src="https://cdn.discordapp.com/attachments/971130306751000636/999488819164348536/unknown.png" alt="" class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl" />
 
                     <blockquote class="flex flex-col justify-between p-12 -mt-6 text-center rounded-lg ">
                         <p class="text-xl font-bold text-gray-700">Cyrus Francisco</p>
@@ -192,7 +192,7 @@
                 </div>
 
                 <div class="shadow-xl hover:shadow-cyan-400">
-                    <img src="https://scontent.fmnl9-2.fna.fbcdn.net/v/t39.30808-1/273749097_7723431614349571_9061870634425649831_n.jpg?stp=dst-jpg_s200x200&_nc_cat=103&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeHywf3iYWqiO8aqm6h9S5ZwVlfCX6hukzpWV8JfqG6TOsUqBTCZQFUm3lnbQ0cURWGDnzGJyk1jrSNDXCYHs8GZ&_nc_ohc=d9tEjg_qmCUAX-zGMPm&_nc_ht=scontent.fmnl9-2.fna&oh=00_AT8L4Vb58GyS5SzvZQaT32BgwgIgipV9FG0qCTN0zBgn-g&oe=62D7B4F4" alt="" class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl" />
+                    <img src="https://cdn.discordapp.com/attachments/971130306751000636/999489019765342228/unknown.png" alt="" class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl" />
 
                     <blockquote class="flex flex-col justify-between p-12 -mt-6 text-center rounded-lg ">
                         <p class="text-xl font-bold text-gray-700">Adieser Jabal</p>
