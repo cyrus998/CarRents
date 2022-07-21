@@ -1,12 +1,20 @@
 HOW TO RUN (For my Groupmates)
 
-First, Clone my repository; then
+(Assuming that you have composer and xampp installed:)
+
+First, Clone my repository 
+
+git clone https://github.com/cyrus998/CarRents.git
+
+then
 
 composer update
 
+php artisan migrate:fresh
+
 php artisan storage:link
 
-php artisan migrate:fresh
+php artisan db:seed CarSeeder
 
 php artisan serve
 
