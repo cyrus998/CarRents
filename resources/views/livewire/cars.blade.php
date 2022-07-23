@@ -73,7 +73,7 @@
                                             <dd class="font-medium"> {{ $car->seats }} </dd>
                                         </div>
                                     </div>
-                                    <x-jet-button wire:click="showRentModal({{ $car->id }})" class="text-1xl">Create New Rent</x-jet-button>
+                                    <x-jet-button wire:click="showRentModal({{ $car->id }})" class="text-1xl">Rent this Car</x-jet-button>
                                     @if(Auth::user()->role=="1")
                                     <button wire:click="edit({{ $car->id }})"
                                         class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Edit</button>
