@@ -3,6 +3,7 @@
 namespace App\Http\Livewire;
 
 use App\Models\Rent;
+use App\Models\Car;
 use Illuminate\Support\Facades\Storage;
 use Livewire\Component;
 use Livewire\WithFileUploads;
@@ -54,11 +55,23 @@ class RentIndex extends Component
         return $this->sortBy = $field;
     }
 
-
-    public function showRentModal()
+    public function showRentModalAdmin()
     {
         $this->reset();
         $this->resetInputFields();
+        $this->showingRentModal = true;
+    }
+
+    public function showRentModal($id)
+    {
+        $this->reset();
+        $this->resetInputFields();
+
+        $car = Car::findOrFail($id);
+        // $this->car_id= $id;
+        $this->carunit = $car->carunit;
+        $this->price = $car->price;
+
         $this->showingRentModal = true;
     }
 

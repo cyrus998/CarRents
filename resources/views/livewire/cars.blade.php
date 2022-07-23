@@ -73,6 +73,7 @@
                                             <dd class="font-medium"> {{ $car->seats }} </dd>
                                         </div>
                                     </div>
+                                    <x-jet-button wire:click="showRentModal({{ $car->id }})" class="text-1xl">Create New Rent</x-jet-button>
                                     @if(Auth::user()->role=="1")
                                     <button wire:click="edit({{ $car->id }})"
                                         class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Edit</button>
@@ -88,4 +89,101 @@
 
             </div>
     </div>
+
+    <x-jet-dialog-modal wire:model="showingRentModal">
+            @if ($isEditMode)
+            <x-slot name="name">Update Rent</x-slot>
+            @else
+            <x-slot name="name">Create Rent</x-slot>
+            @endif
+            <x-slot name="content">
+                <div class="space-y-8 divide-y divide-gray-200">
+                    <form enctype="multipart/form-data">
+                        <div class="sm:col-span-6">
+
+                            <div class="mb-4">
+                                <label for="exampleFormControlInput1" class="block text-gray-700 text-sm font-bold mb-2">Customer Name:</label>
+                                <input type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="exampleFormControlInput1" placeholder="Enter name" wire:model="name">
+                                @error('name') <span class="text-red-500">{{ $message }}</span>@enderror
+                            </div>
+
+                        </div>
+                        <div class="sm:col-span-6">
+                            <label for="name" class="block text-sm mt-4 font-medium text-gray-700"> Please Upload A valid ID </label>
+                            @if ($oldImage)
+                            Old Image:
+                            <img src="{{ Storage::url($oldImage) }}">
+                            @endif
+                            @if ($newImage)
+                            Photo Preview:
+                            <img src="{{ $newImage->temporaryUrl() }}">
+                            @endif
+                            <div class="mt-1">
+                                <input type="file" id="image" wire:model="newImage" name="newImage" class="block w-full appearance-none bg-white border border-gray-400 rounded-md py-2 px-3 text-base leading-normal transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
+                            </div>
+                            @error('newImage')
+                            <span class="text-red-400">{{ $message }}</span>
+                            @enderror
+
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="exampleFormControlInput2" class="block text-gray-700 text-sm mt-2 font-bold mb-2">Number:</label>
+                            <input type="number" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="number" id="exampleFormControlInput2" wire:model="number" placeholder="Enter number">
+                            {{-- <textarea ></textarea> --}}
+                            @error('number') <span class="text-red-500">{{ $message }}</span>@enderror
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="exampleFormControlInput1" class="block text-gray-700 text-sm font-bold mb-2">Car:</label>
+                            <input disabled type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="exampleFormControlInput1" placeholder="Enter Car Unit Model" wire:model="carunit">
+                            @error('carunit') <span class="text-red-500">{{ $message }}</span>@enderror
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="exampleFormControlInput2" class="block text-gray-700 text-sm font-bold mb-2">Duration:</label>
+                            <select class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="exampleFormControlInput2" wire:model="daysrented" placeholder="Enter daysrented">
+                                <option disabled value="">Select Number of Days</option>
+                                <option value="1">1 Day</option>
+                                <option value="2">2 Days</option>
+                                <option value="3">3 Days</option>
+                                <option value="5">5 Days</option>
+                                <option value="7">1 Week</option>
+                                <option value="14">2 Weeks</option>
+                                <option value="21">3 Weeks</option>
+                            </select>
+                            {{-- <textarea ></textarea> --}}
+                            @error('daysrented') <span class="text-red-500">{{ $message }}</span>@enderror
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="exampleFormControlInput1" class="block text-gray-700 text-sm font-bold mb-2">Price:</label>
+                            <input disabled type="number" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="exampleFormControlInput1" placeholder="Enter price" wire:model="price">
+                            @error('price') <span class="text-red-500">{{ $message }}</span>@enderror
+                        </div>
+
+                        @if(Auth::user()->role=="1")
+                        <div class="mb-4">
+                            <label for="exampleFormControlInput2" class="block text-gray-700 text-sm font-bold mb-2">Status:</label>
+                            <select class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="exampleFormControlInput2" wire:model="status" placeholder="Enter status">
+                                <option value="Pending">Pending</option>
+                                <option value="Returned/Done">Returned/Done</option>
+                                <option value="On The Road">On The Road</option>
+                            </select>
+                            {{-- <textarea ></textarea> --}}
+                            @error('status') <span class="text-red-500">{{ $message }}</span>@enderror
+                        </div>
+                        @endif
+                    </form>
+                </div>
+
+            </x-slot>
+            <x-slot name="footer">
+                @if ($isEditMode)
+                <x-jet-button wire:click="updateRent">Update</x-jet-button>
+                @else
+                <x-jet-button wire:click="storeRent">Create</x-jet-button>
+                @endif
+            </x-slot>
+        </x-jet-dialog-modal>
 </div>

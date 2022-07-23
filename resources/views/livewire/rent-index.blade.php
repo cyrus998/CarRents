@@ -2,7 +2,7 @@
 
 <div class="max-w-full mx-auto">
     <div class="m-2 sm:px-6 lg:px-10 text-left pt-5">
-        <x-jet-button wire:click="showRentModal" class="text-1xl">Create New Rent</x-jet-button>
+        <x-jet-button wire:click="showRentModalAdmin" class="text-1xl">Create New Rent</x-jet-button>
     </div>
     <div class="m-2 sm:px-6 lg:px-10 text-right">
         <a class="bg-cyan-800 hover:bg-slate-800 text-white font-bold py-2 px-4 rounded my-3" href="{{ URL::to('/create-pdf') }}">Export to PDF</a>

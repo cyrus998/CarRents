@@ -113,7 +113,7 @@
 
 
                 <div class="shadow-xl hover:shadow-cyan-400">
-                    <img src="https://scontent.fmnl9-3.fna.fbcdn.net/v/t39.30808-6/278588048_5092406527522873_1876390802531594619_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHHjibInigTTH0gJVtd1XREMKIfdlqn0SAwoh92WqfRIK5VJkYB142AEdGj2QuHratkMvPbS-g2w2CgGfFS8lVH&_nc_ohc=SqZBi_iXfmUAX9vBdfq&_nc_ht=scontent.fmnl9-3.fna&oh=00_AT8EmdfWoQU9b7GnpiQKTq3H1GSaPPNfiKhW-qkkY7B1wA&oe=62D7E236" alt="" class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl" />
+                    <img src="https://media.discordapp.net/attachments/971130306751000636/999582172518289448/unknown.png?width=549&height=559" alt="" class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl" />
 
                     <blockquote class="flex flex-col justify-between p-12 -mt-6 text-center rounded-lg ">
                         <p class="text-xl font-bold text-gray-700">Adrian Villanueva</p>
@@ -192,7 +192,7 @@
                 </div>
 
                 <div class="shadow-xl hover:shadow-cyan-400">
-                    <img src="https://cdn.discordapp.com/attachments/971130306751000636/999489019765342228/unknown.png" alt="" class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl" />
+                    <img src="https://cdn.discordapp.com/attachments/971130306751000636/1000338627026497566/unknown.png" alt="" class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl" />
 
                     <blockquote class="flex flex-col justify-between p-12 -mt-6 text-center rounded-lg ">
                         <p class="text-xl font-bold text-gray-700">Adieser Jabal</p>

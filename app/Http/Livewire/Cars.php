@@ -4,8 +4,10 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use App\Models\Car;
+use App\Http\Livewire\RentIndex;
+use App\Models\Rent;
 
-class Cars extends Component
+class Cars extends RentIndex
 {
     
     public $cars, $carunit, $price, $transmission, $seats, $picture;
@@ -68,6 +70,32 @@ class Cars extends Component
         $this->car_id= '';
     }
      
+    public function CreateNewRentFromCars()
+    {
+        $this->validate([
+            'newImage' => 'image|max:1024', // 1MB Max
+            'name' => 'required',
+            'number' => 'required',
+            'carunit' => 'required',
+            'daysrented' => 'required',
+            'price' => 'required',
+            'status' => 'required'
+        ]);
+
+        $image = $this->newImage->store('public/rents');
+
+        Rent::create([
+            'name' => $this->name,
+            'image' => $image,
+            'number' => $this->number,
+            'carunit' => $this->carunit,
+            'daysrented' => $this->daysrented,
+            'price' => $this->price,
+            'status' => $this->status,
+        ]);
+        // $this->reset();
+    }
+
     /**
      * The attributes that are mass assignable.
      *
@@ -98,7 +126,8 @@ class Cars extends Component
         $this->closeModal();
         $this->resetInputFields();
     }
-  
+
+
     /**
      * The attributes that are mass assignable.
      *

@@ -74,7 +74,7 @@ class CarSeeder extends Seeder
             'carunit' => 'Nissan Navara',
             'price' => 1899,
             'transmission' => 'Automatic',
-            'seats' => '+',
+            'seats' => '8',
             'picture' => 'https://cdn.motor1.com/images/mgl/013Gp/s1/2021-nissan-navara-facelift.jpg'
         ]);
 
