@@ -36,7 +36,11 @@
                     </x-jet-nav-link>
 
                     <x-jet-nav-link href="/analytics">
-                        {{ __('Analytics') }}
+                        {{ __('Rent Analytics') }}
+                    </x-jet-nav-link>
+
+                    <x-jet-nav-link href="/userschart">
+                        {{ __('Users Analytics') }}
                     </x-jet-nav-link>
 
                     
@@ -245,7 +249,11 @@
                 </x-jet-responsive-nav-link>
 
                 <x-jet-responsive-nav-link href="/analytics" :active="request()->routeIs('rents')">
-                    {{ __('Analytics') }}
+                    {{ __('Rent Analytics') }}
+                </x-jet-responsive-nav-link>
+
+                <x-jet-responsive-nav-link href="/userschart" :active="request()->routeIs('rents')">
+                    {{ __('Users Analytics') }}
                 </x-jet-responsive-nav-link>
 
                 @endif

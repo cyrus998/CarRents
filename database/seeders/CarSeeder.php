@@ -19,7 +19,7 @@ class CarSeeder extends Seeder
             'price' => 1299,
             'transmission' => 'Manual',
             'seats' => '5',
-            'picture' => 'https://i.ytimg.com/vi/y6mPNTytyQo/maxresdefault.jpg'
+            'picture' => 'https://automart-dev.sgp1.digitaloceanspaces.com/acuv089/used-Toyota-Vios-acuv089-285106.jpg'
         ]);
 
         Car::create([

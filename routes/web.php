@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Rents;
 use App\Http\Controllers\RentController;
 use App\Http\Livewire\RentIndex;
-
+use App\Http\Livewire\UsersChart;
 use App\Http\Livewire\Cars;
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +17,8 @@ use App\Http\Livewire\Cars;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+
 
 
 Route::get('cars', Cars::class)->middleware('auth');
@@ -44,6 +46,8 @@ Route::middleware([
      Route::get('/contactus', function () {
         return view('contactus');
      })->name('contactus');
+     
+     Route::get('userschart', [UsersChart::class, 'index']);
 
      Route::get('analytics', 'App\Http\Controllers\RentController@googlePieChart');
 
