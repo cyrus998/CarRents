@@ -104,8 +104,8 @@
                         <div class="sm:col-span-6">
 
                             <div class="mb-4">
-                                <label for="exampleFormControlInput1" class="block text-gray-700 text-sm font-bold mb-2">Customer Name:</label>
-                                <input type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="exampleFormControlInput1" placeholder="Enter name" wire:model="name">
+                                <label for="exampleFormControlInput1" class="block text-gray-700 text-sm font-bold mb-2">Customer Full Name:</label>
+                                <input disabled type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="exampleFormControlInput1" placeholder="Enter name" wire:model="name">
                                 @error('name') <span class="text-red-500">{{ $message }}</span>@enderror
                             </div>
 
@@ -130,14 +130,14 @@
                         </div>
 
                         <div class="mb-4">
-                            <label for="exampleFormControlInput2" class="block text-gray-700 text-sm mt-2 font-bold mb-2">Number:</label>
+                            <label for="exampleFormControlInput2" class="block text-gray-700 text-sm mt-2 font-bold mb-2">Customer Phone Number:</label>
                             <input type="number" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="number" id="exampleFormControlInput2" wire:model="number" placeholder="Enter number">
                             {{-- <textarea ></textarea> --}}
                             @error('number') <span class="text-red-500">{{ $message }}</span>@enderror
                         </div>
 
                         <div class="mb-4">
-                            <label for="exampleFormControlInput1" class="block text-gray-700 text-sm font-bold mb-2">Car:</label>
+                            <label for="exampleFormControlInput1" class="block text-gray-700 text-sm font-bold mb-2">Chosen Car:</label>
                             <input disabled type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="exampleFormControlInput1" placeholder="Enter Car Unit Model" wire:model="carunit">
                             @error('carunit') <span class="text-red-500">{{ $message }}</span>@enderror
                         </div>
@@ -159,7 +159,7 @@
                         </div>
 
                         <div class="mb-4">
-                            <label for="exampleFormControlInput1" class="block text-gray-700 text-sm font-bold mb-2">Price:</label>
+                            <label for="exampleFormControlInput1" class="block text-gray-700 text-sm font-bold mb-2">Price per 24 Hours:</label>
                             <input disabled type="number" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="exampleFormControlInput1" placeholder="Enter price" wire:model="price">
                             @error('price') <span class="text-red-500">{{ $message }}</span>@enderror
                         </div>

@@ -112,7 +112,7 @@
                         </div>
 
                         <div class="mb-4">
-                            <label for="exampleFormControlInput2" class="block text-gray-700 text-sm mt-2 font-bold mb-2">Number:</label>
+                            <label for="exampleFormControlInput2" class="block text-gray-700 text-sm mt-2 font-bold mb-2">Customer Phone Number:</label>
                             <input type="number" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="number" id="exampleFormControlInput2" wire:model="number" placeholder="Enter number">
                             {{-- <textarea ></textarea> --}}
                             @error('number') <span class="text-red-500">{{ $message }}</span>@enderror

@@ -8,16 +8,18 @@
 
 </head>
 <body>
-    <h3 align="center">Customer's Data</h3>
+    <h1>Cars For Hire.</h1>
+    <p>Address: 363 Pascual Casal St, Quiapo, Manila, 1001 Metro Manila</p>
+    <h3 align="center">All Customer Reservation Data</h3>
         <table width="100%" style="border-collapse: collapse; border: 0px;">
  
-                    <tr>
-                        <th style="border: 1px solid; padding:12px;" width="20%">Name</th>
-                        <th style="border: 1px solid; padding:12px;" width="20%">Number</th>
-                        <th style="border: 1px solid; padding:12px;" width="20%">Carunit</th>
-                        <th style="border: 1px solid; padding:12px;" width="20%">Daysrented</th>
-                        <th style="border: 1px solid; padding:12px;" width="20%">Price</th>
-                        <th style="border: 1px solid; padding:12px;" width="20%">Status</th>
+                    <tr style="background-color: #101726;">
+                        <th style="border: 1px solid; padding:12px; color:white;" width="20%">Name</th>
+                        <th style="border: 1px solid; padding:12px; color:white;" width="20%">Number</th>
+                        <th style="border: 1px solid; padding:12px; color:white;" width="20%">Carunit</th>
+                        <th style="border: 1px solid; padding:12px; color:white;" width="20%">Daysrented</th>
+                        <th style="border: 1px solid; padding:12px; color:white;" width="20%">Price</th>
+                        <th style="border: 1px solid; padding:12px; color:white;" width="20%">Status</th>
                     </tr>
             @foreach ($rent as $rents)
                     <tr>

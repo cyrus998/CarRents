@@ -69,6 +69,7 @@ class RentIndex extends Component
 
         $car = Car::findOrFail($id);
         // $this->car_id= $id;
+        $this->name = auth()->user()->name;
         $this->carunit = $car->carunit;
         $this->price = $car->price;
 

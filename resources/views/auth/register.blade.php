@@ -41,10 +41,10 @@
 
                     <div class="">
                         <label for="password" class="block text-sm font-medium leading-5 text-white">
-                          Name
+                          Customer Full Name
                         </label>
                         <div class="mt-1 rounded-md shadow-sm">
-                          <input id="name" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
+                          <input id="name" type="text" name="name" :value="old('name')" placeholder='Please Enter Your Full Name' required autofocus autocomplete="name" class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
                         </div>
                     </div>
 
@@ -53,7 +53,7 @@
                       Email address
                     </label>
                     <div class="mt-1 rounded-md shadow-sm">
-                      <input id="email" type="email" name="email" :value="old('email')" required class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
+                      <input id="email" type="email" name="email" :value="old('email')" placeholder='Please Enter a Valid Email Address' required class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
                     </div>
                     </div>
       
@@ -64,7 +64,7 @@
                       Password
                     </label>
                     <div class="mt-1 rounded-md shadow-sm">
-                      <input  id="password" type="password" name="password" required autocomplete="new-password" class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
+                      <input  id="password" type="password" name="password" placeholder='Enter Desired Password' required autocomplete="new-password" class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
                     </div>
                   </div>
 
@@ -73,7 +73,7 @@
                       Password Confirmation
                     </label>
                     <div class="mt-1 rounded-md shadow-sm">
-                      <input id="password_confirmation" type="password" name="password_confirmation" required autocomplete="new-password"  class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
+                      <input id="password_confirmation" type="password" name="password_confirmation" placeholder='Confirm your password' required autocomplete="new-password"  class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md placeholder-gray-400 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 transition duration-150 ease-in-out sm:text-sm sm:leading-5" />
                     </div>
                   </div>
       
