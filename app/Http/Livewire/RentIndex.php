@@ -109,6 +109,7 @@ class RentIndex extends Component
             'status' => $this->status,
         ]);
         $this->reset();
+        return redirect()->to('/success');
     }
 
     public function showEditRentModal($id)

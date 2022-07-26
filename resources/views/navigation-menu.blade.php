@@ -79,10 +79,6 @@
                     </x-jet-nav-link>
                     @endif
 
-                    <x-jet-nav-link href="/rents" :active="request()->routeIs('rents')">
-                        {{ __('Rents') }}
-                    </x-jet-nav-link>
-
 
                     @endif
                 </div>
@@ -261,10 +257,6 @@
 
                 {{-- User Links --}}
                 @if(Auth::user()->role=="0")
-
-                <x-jet-responsive-nav-link href="/rents" :active="request()->routeIs('rents')">
-                    {{ __('Rents') }}
-                </x-jet-responsive-nav-link>
 
                 <x-jet-responsive-nav-link href="/cars" :active="request()->routeIs('carselection')">
                     {{ __('Car Selection') }}

@@ -43,6 +43,10 @@ Route::middleware([
         return view('aboutus');
      })->name('aboutus');
 
+     Route::get('/success', function () {
+        return view('success');
+     })->name('success');
+
      Route::get('/contactus', function () {
         return view('contactus');
      })->name('contactus');
