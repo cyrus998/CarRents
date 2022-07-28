@@ -21,7 +21,7 @@ class RentSeeder extends Seeder
             'daysrented' => '5',
             'price' => '4999',
             'status' => 'Pending',
-            'image' => 'https://cdn.discordapp.com/attachments/971130306751000636/1000312244149698600/license.PNG',
+            'image' => 'public/rents/mine.png',
         ]);
 
         Rent::create([
@@ -31,7 +31,7 @@ class RentSeeder extends Seeder
             'daysrented' => '3',
             'price' => '2999',
             'status' => 'Pending',
-            'image' => 'https://cdn.discordapp.com/attachments/971130306751000636/1000335123302072390/unknown.png',
+            'image' => 'public/rents/dummy.png',
         ]);
 
         Rent::create([
@@ -41,7 +41,7 @@ class RentSeeder extends Seeder
             'daysrented' => '6',
             'price' => '7999',
             'status' => 'Pending',
-            'image' => 'https://cdn.discordapp.com/attachments/971130306751000636/1000335123302072390/unknown.png',
+            'image' => 'public/rents/dummy.png',
         ]);
 
         Rent::create([
@@ -51,7 +51,17 @@ class RentSeeder extends Seeder
             'daysrented' => '1',
             'price' => '1899',
             'status' => 'Pending',
-            'image' => 'https://cdn.discordapp.com/attachments/971130306751000636/1000335123302072390/unknown.png',
+            'image' => 'public/rents/dummy.png',
+        ]);
+
+        Rent::create([
+            'name' => 'Sasha Braus',
+            'number' => '.9885562281',
+            'carunit' => 'Toyota Fortuner',
+            'daysrented' => '1',
+            'price' => '1899',
+            'status' => 'Pending',
+            'image' => 'public/rents/dummy.png',
         ]);
 
         Rent::create([
@@ -61,7 +71,7 @@ class RentSeeder extends Seeder
             'daysrented' => '3',
             'price' => '2999',
             'status' => 'Pending',
-            'image' => 'https://cdn.discordapp.com/attachments/971130306751000636/1000335123302072390/unknown.png',
+            'image' => 'public/rents/dummy.png',
         ]);
 
         Rent::create([
@@ -71,7 +81,7 @@ class RentSeeder extends Seeder
             'daysrented' => '3',
             'price' => '4999',
             'status' => 'Pending',
-            'image' => 'https://cdn.discordapp.com/attachments/971130306751000636/1000335123302072390/unknown.png',
+            'image' => 'public/rents/dummy.png',
         ]);
 
         Rent::create([
@@ -81,7 +91,7 @@ class RentSeeder extends Seeder
             'daysrented' => '3',
             'price' => '4999',
             'status' => 'Pending',
-            'image' => 'https://cdn.discordapp.com/attachments/971130306751000636/1000335123302072390/unknown.png',
+            'image' => 'public/rents/dummy.png',
         ]);
 
         Rent::create([
@@ -91,7 +101,7 @@ class RentSeeder extends Seeder
             'daysrented' => '3',
             'price' => '3999',
             'status' => 'Pending',
-            'image' => 'https://cdn.discordapp.com/attachments/971130306751000636/1000335123302072390/unknown.png',
+            'image' => 'public/rents/dummy.png',
         ]);
 
         Rent::create([
@@ -101,7 +111,7 @@ class RentSeeder extends Seeder
             'daysrented' => '3',
             'price' => '3999',
             'status' => 'Pending',
-            'image' => 'https://cdn.discordapp.com/attachments/971130306751000636/1000335123302072390/unknown.png',
+            'image' => 'public/rents/dummy.png',
         ]);
 
         Rent::create([
@@ -111,7 +121,7 @@ class RentSeeder extends Seeder
             'daysrented' => '3',
             'price' => '3999',
             'status' => 'Pending',
-            'image' => 'https://cdn.discordapp.com/attachments/971130306751000636/1000335123302072390/unknown.png',
+            'image' => 'public/rents/dummy.png',
         ]);
     }
 }
