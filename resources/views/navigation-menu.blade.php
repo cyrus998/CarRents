@@ -266,6 +266,10 @@
                     {{ __('Users Analytics') }}
                 </x-jet-responsive-nav-link>
 
+                <x-jet-responsive-nav-link href="/workwithus" :active="request()->routeIs('careers')">
+                    {{ __('Careers | Work with Us!') }}
+                </x-jet-responsive-nav-link>
+
                 @endif
                 {{-- End of Admin Links --}}
 
@@ -284,6 +288,15 @@
                 <x-jet-responsive-nav-link href="{{ route('contactus') }}" :active="request()->routeIs('contactus')">
                     {{ __('Contact Us') }}
                 </x-jet-responsive-nav-link>
+
+                <x-jet-responsive-nav-link href="/workwithus" :active="request()->routeIs('careers')">
+                    {{ __('Careers | Work with Us!') }}
+                </x-jet-responsive-nav-link>
+
+
+
+
+
                 @endif
                 {{-- End of User Links --}}
                 @if (Laravel\Jetstream\Jetstream::hasApiFeatures())
