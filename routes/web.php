@@ -7,6 +7,7 @@ use App\Http\Controllers\RentController;
 use App\Http\Livewire\RentIndex;
 use App\Http\Livewire\UsersChart;
 use App\Http\Livewire\Cars;
+use App\Http\Controllers\CareerController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,7 +18,6 @@ use App\Http\Livewire\Cars;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 
 
 
@@ -50,6 +50,13 @@ Route::middleware([
      Route::get('/contactus', function () {
         return view('contactus');
      })->name('contactus');
+     
+     Route::get('/workwithus', function () {
+        return view('careers.create');
+    });
+
+    
+     Route::resource('careers', CareerController::class);
      
      Route::get('userschart', [UsersChart::class, 'index']);
 

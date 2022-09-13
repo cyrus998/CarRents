@@ -43,6 +43,9 @@
                         {{ __('Users Analytics') }}
                     </x-jet-nav-link>
 
+                    <x-jet-nav-link href="/workwithus" :active="request()->routeIs('careers')">
+                        {{ __('Careers | Work with Us!') }}
+                    </x-jet-nav-link>
                     
 
                     
@@ -67,6 +70,11 @@
                         {{ __('Car Selection') }}
                     </x-jet-nav-link>
 
+                    <x-jet-nav-link href="/workwithus" :active="request()->routeIs('careers')">
+                        {{ __('Careers | Work with Us!') }}
+                    </x-jet-nav-link>
+
+
                     @if(Auth::user()->role=="1")
                     <x-jet-nav-link href="/cars" :active="request()->routeIs('carselection')">
                         {{ __('Car Selection') }}
@@ -76,6 +84,12 @@
                     @if(Auth::user()->role=="1")
                     <x-jet-nav-link href="/cars" :active="request()->routeIs('carselection')">
                         {{ __('Edit Cars') }}
+                    </x-jet-nav-link>
+                    @endif
+
+                    @if(Auth::user()->role=="1")
+                    <x-jet-nav-link href="/workwithus" :active="request()->routeIs('careers')">
+                        {{ __('Careers | Work with Us!') }}
                     </x-jet-nav-link>
                     @endif
 

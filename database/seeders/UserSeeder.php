@@ -15,15 +15,15 @@ class UserSeeder extends Seeder
     public function run()
     {
 
-        // User::create([
-        //     'name' => 'Cyrus Francisco',
-        //     'email' => 'mjcmfrancisco@tip.edu.ph',
-        //     'role' => '0',
-        //     'email_verified_at' => '2022-01-24 01:28:49',
-        //     'created_at' => '2022-01-24 01:28:35',
-        //     'updated_at' => '2022-01-24 01:28:49',
-        //     'password' => '$2y$10$Q4vd9eNjBa0wd0t7jInknuw/HTfRhefr4EeL1yNT150aNkEd2ER0W',
-        // ]);
+        User::create([
+            'name' => 'Cyrus Francisco',
+            'email' => 'mjcmfrancisco@tip.edu.ph',
+            'role' => '0',
+            'email_verified_at' => '2022-01-24 01:28:49',
+            'created_at' => '2022-01-24 01:28:35',
+            'updated_at' => '2022-01-24 01:28:49',
+            'password' => '$2y$10$Q4vd9eNjBa0wd0t7jInknuw/HTfRhefr4EeL1yNT150aNkEd2ER0W',
+        ]);
         
         User::create([
             'name' => 'Adrian Villanueva',
