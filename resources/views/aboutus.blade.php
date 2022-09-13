@@ -113,7 +113,7 @@
 
 
                 <div class="shadow-xl hover:shadow-cyan-400">
-                    <img src="https://media.discordapp.net/attachments/971130306751000636/999582172518289448/unknown.png?width=549&height=559" alt="" class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl" />
+                    <img src="https://scontent.fmnl25-3.fna.fbcdn.net/v/t39.30808-1/299730793_5438455996251256_44450645816268869_n.jpg?stp=c0.0.200.200a_dst-jpg_p200x200&_nc_cat=101&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeEPZUvb8juZdQHbxBeypnPgLuig1EbjLZ0u6KDURuMtnZJPGtDE5DKltar2pOip7QLlBCCKosneIkC-FpyoWkba&_nc_ohc=pLszUSdQTzIAX91qC9_&_nc_ht=scontent.fmnl25-3.fna&oh=00_AT8qLI-4DyHheop4ZpuJzPUdnFUVTfXsdhVknRkPrd81Wg&oe=63245D21" alt="" class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl" />
 
                     <blockquote class="flex flex-col justify-between p-12 -mt-6 text-center rounded-lg ">
                         <p class="text-xl font-bold text-gray-700">Adrian Villanueva</p>
@@ -192,10 +192,10 @@
                 </div>
 
                 <div class="shadow-xl hover:shadow-cyan-400">
-                    <img src="https://cdn.discordapp.com/attachments/971130306751000636/1000338627026497566/unknown.png" alt="" class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl" />
+                    <img src="https://scontent.fmnl25-4.fna.fbcdn.net/v/t1.6435-9/160570849_3558100181082081_2048581190527963505_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHiVa2w_NkCbvNoxJLmw8shFuEGmtcynX8W4Qaa1zKdf5XFUttcT3SOk16ddU_ciIR-AeOK2_nl1I9pf5O3ayc1&_nc_ohc=9hmJZvb0KIoAX_RWHDK&_nc_ht=scontent.fmnl25-4.fna&oh=00_AT8zQJd9IhB3d5LduP-DNNrc32xcpvKsVwiwVNeI0cAruw&oe=634521BF" alt="" class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl" />
 
                     <blockquote class="flex flex-col justify-between p-12 -mt-6 text-center rounded-lg ">
-                        <p class="text-xl font-bold text-gray-700">Adieser Jabal</p>
+                        <p class="text-xl font-bold text-gray-700">Alwyne Diwas</p>
                         <p class="mt-1 text-1xl font-medium text-gray-500">
                             Chief Technology Officer
                         </p><br> <br>
@@ -211,7 +211,7 @@
                                 </svg>
                             </a>
 
-                            <a href="https://www.facebook.com/adieser.jabal" class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
+                            <a href="https://www.facebook.com/alwyne.diwas.5" class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
                                 <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M2.00195 12.002C2.00312 16.9214 5.58036 21.1101 10.439 21.881V14.892H7.90195V12.002H10.442V9.80204C10.3284 8.75958 10.6845 7.72064 11.4136 6.96698C12.1427 6.21332 13.1693 5.82306 14.215 5.90204C14.9655 5.91417 15.7141 5.98101 16.455 6.10205V8.56104H15.191C14.7558 8.50405 14.3183 8.64777 14.0017 8.95171C13.6851 9.25566 13.5237 9.68693 13.563 10.124V12.002H16.334L15.891 14.893H13.563V21.881C18.8174 21.0506 22.502 16.2518 21.9475 10.9611C21.3929 5.67041 16.7932 1.73997 11.4808 2.01722C6.16831 2.29447 2.0028 6.68235 2.00195 12.002Z">
                                     </path>
@@ -229,10 +229,10 @@
                 </div>
 
                 <div class="shadow-xl hover:shadow-cyan-400">
-                    <img src="https://scontent.fmnl9-2.fna.fbcdn.net/v/t1.18169-9/20294271_873774969458178_8219698173887586873_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHnHAye_kPH2kasf5DG-m5nomuhsUdGvCuia6GxR0a8K8aTuUvc5owdSQawcM9Osge4bP5TlFWtY8uwdb-KGCdK&_nc_ohc=3WtoyAk77MkAX9SZlck&_nc_ht=scontent.fmnl9-2.fna&oh=00_AT_TmAjrzR77TjuqOC36B956gEpKfnCdI-8arvFUaB7Vsw&oe=62EB2D68" alt="" class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl" />
+                    <img src="https://scontent.fmnl25-1.fna.fbcdn.net/v/t39.30808-6/305021777_8118455284896158_961695112826400932_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEtyDIM9Fg7uVvzq3Cez8y6BbwPCME6MfcFvA8IwTox98qh3JfFpbtFGNhpsjoHTRvh9sIVgrDc5aoh-ChgrwPd&_nc_ohc=WBN01tWTuD0AX91-oNn&_nc_ht=scontent.fmnl25-1.fna&oh=00_AT8DfpL41CP9_Lw_TlJGyFYWdN3u0pIkGjlzFzwIOhDvsw&oe=6324F992" alt="" class="object-cover w-24 h-24 mx-auto rounded-full shadow-xl" />
 
                     <blockquote class="flex flex-col justify-between p-12 -mt-6 text-center rounded-lg ">
-                        <p class="text-xl font-bold text-gray-700">Ralph Raineer Yabut</p>
+                        <p class="text-xl font-bold text-gray-700">Neil Irvine Morales</p>
                         <p class="mt-1 text-1xl font-medium text-gray-500">
                             Chief Operations Officer
                         </p>
@@ -248,7 +248,7 @@
                                 </svg>
                             </a>
 
-                            <a href="https://www.facebook.com/ralphraineer.yabut" class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
+                            <a href="https://www.facebook.com/Lien.Shi11" class="mx-2 text-gray-600 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-300 group-hover:text-white" aria-label="Facebook">
                                 <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M2.00195 12.002C2.00312 16.9214 5.58036 21.1101 10.439 21.881V14.892H7.90195V12.002H10.442V9.80204C10.3284 8.75958 10.6845 7.72064 11.4136 6.96698C12.1427 6.21332 13.1693 5.82306 14.215 5.90204C14.9655 5.91417 15.7141 5.98101 16.455 6.10205V8.56104H15.191C14.7558 8.50405 14.3183 8.64777 14.0017 8.95171C13.6851 9.25566 13.5237 9.68693 13.563 10.124V12.002H16.334L15.891 14.893H13.563V21.881C18.8174 21.0506 22.502 16.2518 21.9475 10.9611C21.3929 5.67041 16.7932 1.73997 11.4808 2.01722C6.16831 2.29447 2.0028 6.68235 2.00195 12.002Z">
                                     </path>
