@@ -14,7 +14,7 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-
+        //dian12345 $2y$10$.nyJWW7B8E6J0zM4xmyNNOzJseCz5h8pHTwdg1GpwRuenQUUfZFMy
         User::create([
             'name' => 'Cyrus Francisco',
             'email' => 'mjcmfrancisco@tip.edu.ph',
@@ -22,15 +22,34 @@ class UserSeeder extends Seeder
             'email_verified_at' => '2022-01-24 01:28:49',
             'created_at' => '2022-01-24 01:28:35',
             'updated_at' => '2022-01-24 01:28:49',
-            'password' => '$2y$10$Q4vd9eNjBa0wd0t7jInknuw/HTfRhefr4EeL1yNT150aNkEd2ER0W',
+            'password' => '$2y$10$Q4vd9eNjBa0wd0t7jInknuw/HTfRhefr4EeL1yNT150aNkEd2ER0W', // qwerqwer
         ]);
-        
+
         User::create([
-            'name' => 'Adrian Villanueva',
+            'name' => 'Cyrus Francisco Admin',
+            'email' => 'cyrusadmin@gmail.com',
+            'role' => '1',
+            'email_verified_at' => '2022-01-24 01:28:49',
+            'created_at' => '2022-01-24 01:28:35',
+            'updated_at' => '2022-01-24 01:28:49',
+            'password' => '$2y$10$Q4vd9eNjBa0wd0t7jInknuw/HTfRhefr4EeL1yNT150aNkEd2ER0W', // qwerqwer
+        ]);
+
+        User::create([
+            'name' => 'Adrian Villanueva Admin',
+            'email' => 'admin@gmail.com',
+            'role' => '1',
+            'created_at' => '2022-02-23 11:12:05',
+            'password' => '$2y$10$.nyJWW7B8E6J0zM4xmyNNOzJseCz5h8pHTwdg1GpwRuenQUUfZFMy',
+        ]);
+
+
+        User::create([
+            'name' => 'Adrian Villanueva Admin',
             'email' => 'malvillanueva@tip.edu.ph',
             'role' => '1',
             'created_at' => '2022-02-23 11:12:05',
-            'password' => '$2y$10$h45XBUUIwz/mARvOZrtYIOvCV8tz6oRlxKzSxTs/7CiawU2axPRdG',
+            'password' => '$2y$10$.nyJWW7B8E6J0zM4xmyNNOzJseCz5h8pHTwdg1GpwRuenQUUfZFMy',
         ]);
 
         User::create([
@@ -114,4 +133,3 @@ class UserSeeder extends Seeder
         ]);
     }
 }
-    
