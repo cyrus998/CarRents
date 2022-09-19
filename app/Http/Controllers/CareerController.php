@@ -62,7 +62,7 @@ class CareerController extends Controller
     
         Career::create($input);
      
-        return redirect()->route('careers.index')
+        return redirect()->route('careers.create')
                         ->with('success','Your application has been submitted. Thank you!');
     }
      

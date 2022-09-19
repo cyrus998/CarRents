@@ -28,7 +28,7 @@ class UserSeeder extends Seeder
         User::create([
             'name' => 'Adrian Villanueva',
             'email' => 'malvillanueva@tip.edu.ph',
-            'role' => '0',
+            'role' => '1',
             'created_at' => '2022-02-23 11:12:05',
             'password' => '$2y$10$h45XBUUIwz/mARvOZrtYIOvCV8tz6oRlxKzSxTs/7CiawU2axPRdG',
         ]);
